@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Challenge_22.11.4718</title>
+    <style>
+      th {
+        text-align: left;
+       }
+    </style>
   </head>
   <body>
     <h1>Challenge_22.11.4718</h1>
@@ -33,34 +38,56 @@
     </table>
 
     <h3>Isilah formulir dibawah ini</h3>
-    <form action="#" >
-        <label for="nama">Nama : </label>
-        <input type="text" name="nama" id="nama" placeholder="Nama Kamu"/><br>
-
-        <label for="password">Password :</label>
-        <input type="text" name="alamat" id="alamat" /><br>
-
-        <label for="jenisKelamin">Jenis Kelamin :</label>
-        <input type="radio" name="gender" value="L">Laki - Laki</input>
-        <input type="radio" name="gender" value="P">Perempuan</input><br>
-
-        <label for="hobi">Hobi :</label>
-        <input type="checkbox" name="hobi" value="A">Membaca Buku</input>
-        <input type="checkbox" name="hobi" value="B">Menulis</input>
-        <input type="checkbox" name="hobi" value="C">Memancing</input><br>
-
-        <label for="asal kota">Asal Kota :</label>
-        <select name="asalkota" >
-            <option value="Semarang">Semarang</option>
-            <option value="Bandung">Bandung</option>
-            <option value="Surabaya">Surabaya</option>
-            <option value="Malang">Malang</option>
-        </select><br>
-
-        <label for="komentar">Komentar Anda :</label>
-        <textarea name="komentar" placeholder="Silahkan katakan isi hati anda"></textarea><br>
-
-        <input type="button" name="klik" value="Mulai Proses!">
+    <form action="#">
+      <table>
+        <tr>
+          <th><label for="nama">Nama</label></th>
+          <th>:</th>
+          <th><input type="text" name="nama" id="nama" placeholder="Nama Kamu"/></th>
+        </tr>
+        <tr>
+          <th><label for="password">Password</label></th>
+          <th>:</th>
+          <th><input type="text" name="alamat" id="alamat" /></th>
+        </tr>
+        <tr>
+          <th><label for="jenisKelamin">Jenis Kelamin</label></th>
+          <th>:</th>
+          <th><input type="radio" name="gender" value="L">Laki - Laki</input>
+            <input type="radio" name="gender" value="P">Perempuan</input></th>
+        </tr>
+        <tr>
+          <th><label for="hobi">Hobi</label></th>
+          <th>:</th>
+          <th>
+            <input type="checkbox" name="hobi" value="A">Membaca Buku</input>
+            <input type="checkbox" name="hobi" value="B">Menulis</input>
+            <input type="checkbox" name="hobi" value="C">Memancing</input>
+          </th>
+        </tr>
+        <tr>
+          <th><label for="asal kota">Asal Kota</label></th>
+          <th>:</th>
+          <th>
+            <select name="asalkota" >
+              <option value="Semarang">Semarang</option>
+              <option value="Bandung">Bandung</option>
+              <option value="Surabaya">Surabaya</option>
+              <option value="Malang">Malang</option>
+          </select>
+          </th>
+        </tr>
+        <tr>
+          <th><label for="komentar">Komentar Anda</label></th>
+          <th>:</th>
+          <th>
+            <textarea name="komentar" placeholder="Silahkan katakan isi hati anda"></textarea><br>
+          </th>
+        </tr>
+        <tr>
+          <th><input type="button" name="klik" value="Mulai Proses!"></th>
+        </tr>
+      </table>
     </form>
   </body>
 </html>
